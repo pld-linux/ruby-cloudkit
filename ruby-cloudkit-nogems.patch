@@ -1,0 +1,8 @@
+diff -ur jcrosby-cloudkit-781f4d8-o/lib/cloudkit.rb jcrosby-cloudkit-781f4d8/lib/cloudkit.rb
+--- jcrosby-cloudkit-781f4d8-o/lib/cloudkit.rb	2009-05-05 11:00:21.000000000 -0600
++++ jcrosby-cloudkit-781f4d8/lib/cloudkit.rb	2010-08-29 14:19:38.000000000 -0600
+@@ -1,4 +1,3 @@
+-require 'rubygems'
+ require 'erb'
+ require 'json'
+ require 'digest/md5'
