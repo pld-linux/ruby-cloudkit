@@ -20,6 +20,8 @@ BuildRequires:	ruby-modules
 BuildRequires:	setup.rb = 3.4.1
 %{?ruby_mod_ver_requires_eq}
 #BuildArch:	noarch
+Requires:	ruby-uuid
+Requires:	ruby-openid
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
