@@ -51,5 +51,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-/usr/lib/ruby/1.8/cloudkit.rb
-/usr/lib/ruby/1.8/cloudkit
+%{ruby_rubylibdir}/cloudkit.rb
+%{ruby_rubylibdir}/cloudkit
