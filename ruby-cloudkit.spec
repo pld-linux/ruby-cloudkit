@@ -17,7 +17,7 @@ URL:		http://cloudkit.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby
 BuildRequires:	ruby-modules
-BuildRequires:	setup.rb = 3.4.1
+BuildRequires:	setup.rb >= 3.4.1
 %{?ruby_mod_ver_requires_eq}
 #BuildArch:	noarch
 Requires:	ruby-uuid
